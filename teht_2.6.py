@@ -1,12 +1,7 @@
 import random
 
-x = random.randint(0, 9)
-a = random.radiant(0, 9)
-b = random.radiant(0, 9)
+list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(random.choice(list1))
 
-x = random.randint(1, 6)
-a = random.radiant(1, 6)
-b = random.radiant(1, 6)
-
-print(x + a + b)
-print()
+list2 = [1, 2, 3, 4, 5, 6]
+print(random.choice(list2))
